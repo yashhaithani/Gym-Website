@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AITHANI</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{
+            background-image: url('assets/Gym payment Img.jpg');
+            background-size: cover;
+            color: rgb(223, 85, 85);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .form-container {
+            font-size: large;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            background-color: rgba(255, 255, 255, 0.007);
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            border: none;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .form-group {
+            background-color: rgba(255, 255, 255, 0);
+            margin-bottom: 15px;
+        }
+
+        input[type="text"], input[type="number"] {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            background-color: rgb(255, 255, 255);
+            width: calc(100% - 22px);
+            padding: 15px;
+            margin: 5px 0;
+            box-sizing: border-box;
+            border: none;
+            border-radius: 20px;
+        }  
+        button{
+            background-color: red;
+            padding: 10px;
+            color: white;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: x-large;
+            width: 150px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <br><br><br><br><br><br>
+    <div class="form-container">
+        <h2>C o m p l e t e Y o u r  P u r c h a s e</h2>
+        <form action="#">
+            <div class="form-group">
+                <input type="text" placeholder="Name" required, min="4">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Address" required min="10">
+            </div>
+            <div class="form-group">
+                <input type="number" placeholder="Contact" required>
+            </div>
+            <button type="submit" class="btn btn__primary">Pay</button>
+        </form>
+    </div>
+</body>
+</html>
